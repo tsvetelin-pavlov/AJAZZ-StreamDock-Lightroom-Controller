@@ -1,0 +1,113 @@
+[2025-09-07 17:37:55] Info: "5.15.2"
+[2025-09-07 17:37:55] Info: "windows 10"
+[2025-09-07 17:37:55] Info: "10.0.26120"
+[2025-09-07 17:37:55] Info: "Bulgarian"
+[2025-09-07 17:37:55] Info: "3.10.191.0421"
+[2025-09-07 17:37:55] Info: Init app - begin
+[2025-09-07 17:37:55] Info: Load preload html - begin
+[2025-09-07 17:37:55] Info: Load preload html - end
+[2025-09-07 17:37:55] Info: MonitorApplicationsTool - start
+[2025-09-07 17:37:55] Info: MonitorApplicationsTool - end
+[2025-09-07 17:37:55] Info: SDWebsocketServer - end
+[2025-09-07 17:37:55] Info: SDPluginServer instance - end
+[2025-09-07 17:37:55] Info: SDProfileManager instance - end
+[2025-09-07 17:37:56] Info: initWidget - start
+[2025-09-07 17:37:56] Info: initWidget _ SDDebugger start 
+[2025-09-07 17:37:56] Info: initWidget _ SDUploadDialog start 
+[2025-09-07 17:37:56] Info: initWidget _ SDSetting start 
+[2025-09-07 17:37:57] Info: initWidget _ SDStore start 
+[2025-09-07 17:37:57] Info: Store websocket server listen successful with port: 56018
+[2025-09-07 17:37:57] Info: initWidget _ SDToolbarWidget start 
+[2025-09-07 17:37:57] Warning: QFSFileEngine::open: No file name specified
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:37:57] Info: Init app - end
+[2025-09-07 17:37:57] Info: SDNotificationWidget::updateLocation
+[2025-09-07 17:37:57] Info: "C:\\Program Files (x86)\\Stream Dock AJAZZ Global\\Stream Dock AJAZZ.exe"
+[2025-09-07 17:37:57] Info: Run a.exec().
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:37:57] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin 36500FO2I3X82P12WP5545P02F03D24B com.mirabox.streamdock.switchAudio.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin N9M4BBN0VB5ZC5VMI104O30BL73A4RCY com.streamdock.lightroom.enhanced.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin DZ3J1S4N512L2011L846GRV4WO3XHDA8 de.perdoctus.streamdeck.homeassistant.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin WVUI1P9L9HAPV47YONB580ABA3939731 com.krabs.windowsgizmos.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin CH27134IODZ70LF753704VHG0B3SXL33 com.mirabox.streamdock.discord.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin 3C21DNG06OFXP0826LV97T0VR70AHD07 com.barraider.wintools.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin 4KCL415UDF6T232902HN3FU41GGJCOX9 se.trevligaspel.midi.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin QVE2J63GU30HXROY3LZ8764S0JM5JVY4 com.barraider.supermacro.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin 2492KCO047OZ2X9M31871317270050Y4 com.nicollasr.streamdeckvsc.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin R71FSY0102S80CZ1M1DAMI06XYKR4P9V com.start-automating.windowsscriptdeck.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: Updater::checkForUpdates
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin 2ZU9R0CWD32ATEA331DK70XN510T22LR com.hotspot.streamdock.memo.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin H2VU7923021J700883UFDZF3NK6V5U2F io.moeritz.streamdeck.toggl.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin LXLMX35H1LCPHBS38TR8OFF0CREDFA09 com.hotspot.streamdock.weather.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin 434O1A9MASO6X42X976M7R3243OHF01U com.mirabox.streamdock.calendar.sdPlugin is now connected"
+[2025-09-07 17:37:57] Info: SDPluginServer::onTextMessageReceived "Plugin 40OE53FVP3QVCYL4119Z6S25U2HIL40C com.mirabox.streamdock.time.sdPlugin is now connected"
+[2025-09-07 17:37:58] Info: SDPluginServer::onTextMessageReceived "Plugin S9RIE928PYC669XYF1Y7Q3R12MV703Y9 com.start-automating.scriptdeck.sdPlugin is now connected"
+[2025-09-07 17:37:58] Info: onHttpRequestReturn: "/user/info" ""
+[2025-09-07 17:37:58] Info: Connect to devices...
+[2025-09-07 17:37:58] Info: Devices number: 18
+[2025-09-07 17:37:58] Info: Elapsed time: 48 ms
+[2025-09-07 17:37:58] Info: "tmpVid  : 768  tmpPid: 12290  tmpSerialNumber  0300D078274A   -----"
+[2025-09-07 17:37:58] Info: Open device - begin
+[2025-09-07 17:37:58] Info: openHidDevice(): handle = 0x0
+[2025-09-07 17:37:58] Info: "hid_get_manufacturer_string(handle, wstr, MAX_STR) return 0; Manufacturer String: HOTSPOTEKUSB;"
+[2025-09-07 17:37:58] Info: "hid_get_product_string(handle, wstr, MAX_STR) return 0; Product String: HOTSPOTEKUSB HID DEMO;"
+[2025-09-07 17:37:58] Info: "hid_get_serial_number_string(handle, wstr, MAX_STR) return 0; Serial Number String: (48) 0300D078274A;"
+[2025-09-07 17:37:58] Info: "hid_get_indexed_string(handle, wstr, MAX_STR) return 0; Indexed String: HOTSPOTEKUSB;"
+[2025-09-07 17:37:58] Info: Get firmware version : "V25.AKP03E.01.005"
+[2025-09-07 17:37:58] Info: Try to start hid read thread.
+[2025-09-07 17:37:58] Info: Hid read thread start.
+[2025-09-07 17:37:58] Info: Read data function - begin
+[2025-09-07 17:37:58] Info: Try to start hid write thread.
+[2025-09-07 17:37:58] Info: Hid write thread start.
+[2025-09-07 17:37:58] Info: Write data function - begin
+[2025-09-07 17:37:58] Info: Open device - end
+[2025-09-07 17:37:58] Info: 成功打开USB设备。
+[2025-09-07 17:37:58] Info: 启动接收数据线程。
+[2025-09-07 17:37:58] Info: Start download file from: "https://cdn1.key123.vip/marketplace/user/avatar/space/1755635343586/avatar.png"
+[2025-09-07 17:37:58] Info: 启动发送数据线程。
+[2025-09-07 17:37:58] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:37:58] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:37:59] Info: onHttpRequestReturn: "/client/order/product" "getAll"
+[2025-09-07 17:38:01] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:38:01] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:38:01] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:38:01] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:38:48] Info: quitApp - begin
+[2025-09-07 17:38:48] Info: quitApp - end
+[2025-09-07 17:38:48] Info: About to quit.
+[2025-09-07 17:38:48] Info: StreamDock::~StreamDock
+[2025-09-07 17:38:48] Info: 发送断开连接命令
+[2025-09-07 17:38:48] Info: Close device - begin
+[2025-09-07 17:38:48] Info: closeHidDevice(): handle = 0x1b2b89dfc00
+[2025-09-07 17:38:48] Info: Try to stop hid write thread.
+[2025-09-07 17:38:48] Info: Write data function - end
+[2025-09-07 17:38:48] Info: 关闭发送数据线程。
+[2025-09-07 17:38:48] Info: Try to stop hid read thread.
+[2025-09-07 17:38:48] Info: Read data function - end
+[2025-09-07 17:38:48] Info: 关闭接收数据线程。
+[2025-09-07 17:38:48] Info: hid_close(): handle = 0x0
+[2025-09-07 17:38:48] Info: hid_exit(): result = 0
+[2025-09-07 17:38:48] Info: Close device - end
+[2025-09-07 17:38:48] Info: Need to restart app: false
+[2025-09-07 17:38:48] Info: Close device - begin
+[2025-09-07 17:38:48] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 17:38:48] Info: Close device - end
+[2025-09-07 17:38:48] Info: Close device - begin
+[2025-09-07 17:38:48] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 17:38:48] Info: Close device - end
+[2025-09-07 17:38:48] Info: Close device - begin
+[2025-09-07 17:38:48] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 17:38:48] Info: Close device - end
+[2025-09-07 17:38:48] Info: Close device - begin
+[2025-09-07 17:38:48] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 17:38:48] Info: Close device - end

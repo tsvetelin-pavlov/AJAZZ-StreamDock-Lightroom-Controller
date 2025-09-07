@@ -7,6 +7,23 @@ local LrHttp = import 'LrHttp'
 local LrPathUtils = import 'LrPathUtils'
 local LrFileUtils = import 'LrFileUtils'
 
+local Core = {}
+Core.running = Core.running == true -- preserve if reloaded
+Core.pollUrl = 'http://127.0.0.1:58762/poll'
+Core.ackUrl = 'http://127.0.0.1:58762/ack'
+
+-- Helper: get current value, add delta, set new value
+local function setValueWithDelta(param, delta)
+    local ok, current = pcall(function() return LrDevelopController.getValue(param) end)
+    if not ok or type(current) ~= 'number' then
+        LrDialogs.message('AJAZZ StreamDock: Could not get current value for '..tostring(param))
+        return
+    end
+    local newValue = current + delta
+    pcall(function() LrDevelopController.setValue(param, newValue) end)
+end
+
+
 local function load_module(path)
     local src = LrFileUtils.readFile(path)
     if not src then error('Failed to read ' .. path) end
@@ -33,11 +50,6 @@ end
 local paramPath = LrPathUtils.child(_PLUGIN.path, 'modules/ParamMap.lua')
 local ParamMap = load_module(paramPath)
 
-local Core = {}
-Core.running = Core.running == true -- preserve if reloaded
-Core.pollUrl = 'http://127.0.0.1:58762/poll'
-Core.ackUrl = 'http://127.0.0.1:58762/ack'
-
 local function ensureDevelop()
     local _ = LrApplication.activeCatalog()
     return true
@@ -47,8 +59,10 @@ local function applyDelta(target, delta)
     local dc = LrDevelopController
     local t = target
     local name = ParamMap[t]
+
+    -- Always use the sign of delta as received
     if name then
-        pcall(function() dc.increment(name, delta) end)
+        setValueWithDelta(name, delta)
         return
     end
     if t:match('^HSL') then
@@ -56,46 +70,39 @@ local function applyDelta(target, delta)
         if group and color then
             local map = { Hue = 'HSL Hue ', Sat = 'HSL Saturation ', Lum = 'HSL Luminance ' }
             local ctrl = map[group] .. color
-            pcall(function() dc.increment(ctrl, delta) end)
+            setValueWithDelta(ctrl, delta)
             return
         end
     end
-    if t == 'Exposure2012' then
-        dc.increment("Exposure", delta)
-    elseif t == 'Contrast2012' then
-        dc.increment("Contrast", delta)
-    elseif t == 'Highlights2012' then
-        dc.increment("Highlights", delta)
-    elseif t == 'Shadows2012' then
-        dc.increment("Shadows", delta)
-    elseif t == 'Whites2012' then
-        dc.increment("Whites", delta)
-    elseif t == 'Blacks2012' then
-        dc.increment("Blacks", delta)
-    elseif t == 'Clarity2012' or t == 'Clarity' then
-        dc.increment("Clarity", delta)
-    elseif t == 'Dehaze' then
-        dc.increment("Dehaze", delta)
-    elseif t == 'Vibrance' then
-        dc.increment("Vibrance", delta)
-    elseif t == 'Saturation' then
-        dc.increment("Saturation", delta)
-    elseif t == 'Texture' then
-        dc.increment("Texture", delta)
-    elseif t == 'Temperature' or t == 'Temp' then
-        dc.increment("Temperature", delta * 100)
-    elseif t == 'Tint' then
-        dc.increment("Tint", delta * 100)
-    elseif t:match('^HSL') then
-        local _, _, group, color = t:find('HSL%.(Hue|Sat|Lum)%.([A-Za-z]+)')
-        if group and color then
-            local map = { Hue = 'HSL Hue ', Sat = 'HSL Saturation ', Lum = 'HSL Luminance ' }
-            local name = map[group] .. color
-            dc.increment(name, delta)
-        end
+    -- All direct mappings use delta as-is
+    local directMap = {
+        Exposure2012 = "Exposure",
+        Contrast2012 = "Contrast",
+        Highlights2012 = "Highlights",
+        Shadows2012 = "Shadows",
+        Whites2012 = "Whites",
+        Blacks2012 = "Blacks",
+        Clarity2012 = "Clarity",
+        Clarity = "Clarity",
+        Dehaze = "Dehaze",
+        Vibrance = "Vibrance",
+        Saturation = "Saturation",
+        Texture = "Texture",
+    }
+    if directMap[t] then
+        setValueWithDelta(directMap[t], delta)
+        return
+    end
+    if t == 'Temperature' or t == 'Temp' then
+        setValueWithDelta("Temperature", delta * 100)
+        return
+    end
+    if t == 'Tint' then
+        setValueWithDelta("Tint", delta * 100)
+        return
     end
     -- Fallback: attempt direct name increment
-    pcall(function() dc.increment(t, delta) end)
+    setValueWithDelta(t, delta)
 end
 
 local function setAbsolute(target, value01)
@@ -115,49 +122,78 @@ local function setAbsolute(target, value01)
             return
         end
     end
-    if t == 'Exposure2012' then
-        dc.setValue("Exposure", value01)
-    elseif t == 'Contrast2012' then
-        dc.setValue("Contrast", value01)
-    elseif t == 'Highlights2012' then
-        dc.setValue("Highlights", value01)
-    elseif t == 'Shadows2012' then
-        dc.setValue("Shadows", value01)
-    elseif t == 'Whites2012' then
-        dc.setValue("Whites", value01)
-    elseif t == 'Blacks2012' then
-        dc.setValue("Blacks", value01)
-    elseif t == 'Clarity2012' or t == 'Clarity' then
-        dc.setValue("Clarity", value01)
-    elseif t == 'Dehaze' then
-        dc.setValue("Dehaze", value01)
-    elseif t == 'Vibrance' then
-        dc.setValue("Vibrance", value01)
-    elseif t == 'Saturation' then
-        dc.setValue("Saturation", value01)
-    elseif t == 'Texture' then
-        dc.setValue("Texture", value01)
-    elseif t == 'Temperature' or t == 'Temp' then
-        dc.setValue("Temperature", value01)
-    elseif t == 'Tint' then
-        dc.setValue("Tint", value01)
-    end
+        local directMap = {
+            Exposure2012 = "Exposure",
+            Contrast2012 = "Contrast",
+            Highlights2012 = "Highlights",
+            Shadows2012 = "Shadows",
+            Whites2012 = "Whites",
+            Blacks2012 = "Blacks",
+            Clarity2012 = "Clarity",
+            Clarity = "Clarity",
+            Dehaze = "Dehaze",
+            Vibrance = "Vibrance",
+            Saturation = "Saturation",
+            Texture = "Texture",
+        }
+        if directMap[t] then
+            dc.setValue(directMap[t], value01)
+            return
+        end
+        if t == 'Temperature' or t == 'Temp' then
+            dc.setValue("Temperature", value01)
+            return
+        end
+        if t == 'Tint' then
+            dc.setValue("Tint", value01)
+            return
+        end
     -- Fallback: attempt direct set
     pcall(function() dc.setValue(t, value01) end)
 end
 
 local function invokeAction(action)
     local dc = LrDevelopController
+    local ok, err
     if action == 'ToggleBeforeAfter' then
-        dc.performCommand('toggleBeforeAfter')
+        -- performCommand is not available in all SDK versions
+        if type(dc.performCommand) == 'function' then
+            ok, err = pcall(function() dc.performCommand('toggleBeforeAfter') end)
+        else
+            LrDialogs.message('AJAZZ StreamDock: Before/After toggle is not supported in this Lightroom version.')
+            return
+        end
     elseif action == 'Reset' then
-        dc.performCommand('resetSettings')
+        if type(dc.performCommand) == 'function' then
+            ok, err = pcall(function() dc.performCommand('resetSettings') end)
+        else
+            LrDialogs.message('AJAZZ StreamDock: Reset is not supported in this Lightroom version.')
+            return
+        end
     elseif action == 'CopySettings' then
-        dc.performCommand('copySettings')
+        if type(dc.performCommand) == 'function' then
+            ok, err = pcall(function() dc.performCommand('copySettings') end)
+        else
+            LrDialogs.message('AJAZZ StreamDock: Copy Settings is not supported in this Lightroom version.')
+            return
+        end
     elseif action == 'PasteSettings' then
-        dc.performCommand('pasteSettings')
+        if type(dc.performCommand) == 'function' then
+            ok, err = pcall(function() dc.performCommand('pasteSettings') end)
+        else
+            LrDialogs.message('AJAZZ StreamDock: Paste Settings is not supported in this Lightroom version.')
+            return
+        end
     else
-        pcall(function() dc.performCommand(action) end)
+        if type(dc.performCommand) == 'function' then
+            ok, err = pcall(function() dc.performCommand(action) end)
+        else
+            LrDialogs.message('AJAZZ StreamDock: Action '..tostring(action)..' is not supported in this Lightroom version.')
+            return
+        end
+    end
+    if not ok then
+        LrDialogs.message('AJAZZ StreamDock: Error invoking action: '..tostring(action)..'\n'..tostring(err))
     end
 end
 

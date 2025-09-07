@@ -1,0 +1,205 @@
+[2025-09-07 16:57:47] Info: "5.15.2"
+[2025-09-07 16:57:47] Info: "windows 10"
+[2025-09-07 16:57:47] Info: "10.0.26120"
+[2025-09-07 16:57:47] Info: "Bulgarian"
+[2025-09-07 16:57:47] Info: "3.10.191.0421"
+[2025-09-07 16:57:47] Info: Init app - begin
+[2025-09-07 16:57:47] Info: Load preload html - begin
+[2025-09-07 16:57:47] Info: Load preload html - end
+[2025-09-07 16:57:47] Info: MonitorApplicationsTool - start
+[2025-09-07 16:57:47] Info: MonitorApplicationsTool - end
+[2025-09-07 16:57:47] Info: SDWebsocketServer - end
+[2025-09-07 16:57:47] Info: SDPluginServer instance - end
+[2025-09-07 16:57:47] Info: SDProfileManager instance - end
+[2025-09-07 16:57:48] Info: initWidget - start
+[2025-09-07 16:57:48] Info: initWidget _ SDDebugger start 
+[2025-09-07 16:57:48] Info: initWidget _ SDUploadDialog start 
+[2025-09-07 16:57:48] Info: initWidget _ SDSetting start 
+[2025-09-07 16:57:49] Info: initWidget _ SDStore start 
+[2025-09-07 16:57:49] Info: Store websocket server listen successful with port: 56018
+[2025-09-07 16:57:49] Info: initWidget _ SDToolbarWidget start 
+[2025-09-07 16:57:49] Warning: QFSFileEngine::open: No file name specified
+[2025-09-07 16:57:49] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 16:57:49] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 16:57:49] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 16:57:49] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 16:57:49] Info: Init app - end
+[2025-09-07 16:57:49] Info: SDNotificationWidget::updateLocation
+[2025-09-07 16:57:49] Info: "C:\\Program Files (x86)\\Stream Dock AJAZZ Global\\Stream Dock AJAZZ.exe"
+[2025-09-07 16:57:49] Info: Run a.exec().
+[2025-09-07 16:57:49] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 16:57:49] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 16:57:49] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 16:57:49] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin VAJDHTE6AIGJRFF0Y103O9SO0V624M4J com.mirabox.streamdock.switchAudio.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin 33Z9ZJRY4C46V801E470944ZNPW73KOU com.krabs.windowsgizmos.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin 875L2Y8162ZU3CCJ5H7BR24EM63L3GE8 com.mirabox.streamdock.discord.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin 9QPOYS4KF4833U6JT1009X473MI9043J de.perdoctus.streamdeck.homeassistant.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin UBQLB1B3T730U679HO3X24DE1E8D17V7 com.streamdock.lightroom.enhanced.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin YP4VZIJ9XS14BTD362DNRH2X16NN29YQ com.barraider.wintools.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin 3MHC3Q54W56N3EHJZ12NIWUO8D00876B se.trevligaspel.midi.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: Updater::checkForUpdates
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin J95HGJ0438P32E9101O9N4ET4502ZJ03 com.barraider.supermacro.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin TB3TK0LT0DUD1DI1Q1346YQ2BEB4E995 com.start-automating.windowsscriptdeck.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin C9FXM592S3CTHF5L70D1349B08R60964 com.nicollasr.streamdeckvsc.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin 98ME46KOLY894P7D7NZR1ZM82329R664 com.hotspot.streamdock.memo.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin DPCFJ35N9RQEGB9G4AC47S899136P21N io.moeritz.streamdeck.toggl.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin E4T46S1QU3R0JPZJ1WAC3H3SB3HM4128 com.hotspot.streamdock.weather.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin 4VRQ02C78C773UC5J5PQO952MWF3LB7W com.mirabox.streamdock.calendar.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin DP67R3TB284UY27YA8FL3X74H30EQ2PR com.mirabox.streamdock.time.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: SDPluginServer::onTextMessageReceived "Plugin NFL0L48H633DL21X6LFN424FECXV2V7P com.start-automating.scriptdeck.sdPlugin is now connected"
+[2025-09-07 16:57:50] Info: onHttpRequestReturn: "/user/info" ""
+[2025-09-07 16:57:50] Info: Connect to devices...
+[2025-09-07 16:57:50] Info: Devices number: 18
+[2025-09-07 16:57:50] Info: Elapsed time: 49 ms
+[2025-09-07 16:57:50] Info: "tmpVid  : 768  tmpPid: 12290  tmpSerialNumber  0300D078274A   -----"
+[2025-09-07 16:57:50] Info: Open device - begin
+[2025-09-07 16:57:50] Info: openHidDevice(): handle = 0x0
+[2025-09-07 16:57:50] Info: "hid_get_manufacturer_string(handle, wstr, MAX_STR) return 0; Manufacturer String: HOTSPOTEKUSB;"
+[2025-09-07 16:57:50] Info: "hid_get_product_string(handle, wstr, MAX_STR) return 0; Product String: HOTSPOTEKUSB HID DEMO;"
+[2025-09-07 16:57:50] Info: "hid_get_serial_number_string(handle, wstr, MAX_STR) return 0; Serial Number String: (48) 0300D078274A;"
+[2025-09-07 16:57:50] Info: "hid_get_indexed_string(handle, wstr, MAX_STR) return 0; Indexed String: HOTSPOTEKUSB;"
+[2025-09-07 16:57:50] Info: Get firmware version : "V25.AKP03E.01.005"
+[2025-09-07 16:57:50] Info: Try to start hid read thread.
+[2025-09-07 16:57:50] Info: Hid read thread start.
+[2025-09-07 16:57:50] Info: Read data function - begin
+[2025-09-07 16:57:50] Info: Try to start hid write thread.
+[2025-09-07 16:57:50] Info: Hid write thread start.
+[2025-09-07 16:57:50] Info: Write data function - begin
+[2025-09-07 16:57:50] Info: Open device - end
+[2025-09-07 16:57:50] Info: 成功打开USB设备。
+[2025-09-07 16:57:50] Info: 启动接收数据线程。
+[2025-09-07 16:57:50] Info: Start download file from: "https://cdn1.key123.vip/marketplace/user/avatar/space/1755635343586/avatar.png"
+[2025-09-07 16:57:50] Info: 启动发送数据线程。
+[2025-09-07 16:57:50] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 16:57:51] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 16:57:52] Info: onHttpRequestReturn: "/client/order/product" "getAll"
+[2025-09-07 16:58:21] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 16:58:21] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 16:58:21] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 16:58:21] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:08:29] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:08:30] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:08:30] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:08:30] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:08:33] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:08:33] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:08:33] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:08:33] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:08:34] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:08:34] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:08:34] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:08:34] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:08:35] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:08:35] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:08:35] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:08:35] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:08:45] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:08:45] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:08:45] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:08:45] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:19:26] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:19:26] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:19:26] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:19:27] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:20:43] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:20:43] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:20:43] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:20:43] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:20:46] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:20:46] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:20:46] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:20:46] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:20:47] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:20:47] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:20:47] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:20:47] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:20:57] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:20:57] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:20:57] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:20:57] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:21:02] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:21:02] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:21:02] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:21:02] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:21:34] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:21:34] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:21:34] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:21:34] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:23:16] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:23:16] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:23:16] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:23:17] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:25:38] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:25:38] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:25:38] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:25:38] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:26:19] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:26:19] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:26:19] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:26:19] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:26:33] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:26:33] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:26:33] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:26:33] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:27:01] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:27:01] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:27:01] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:27:01] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:31:19] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:31:19] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:31:19] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:31:19] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:31:55] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:31:55] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:31:55] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:31:55] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:32:10] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:32:10] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:32:10] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:32:10] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:32:28] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:32:28] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:32:28] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:32:28] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:34:45] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:34:45] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:34:45] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:34:45] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:34:50] Info: SDPluginServer::onTextMessageReceived "Property inspector 1ZY47DC1ZVR2FFLPMA72PGE4446I90YB  is now connected"
+[2025-09-07 17:34:57] Info: SDPluginServer::onSocketDisconnected "Property inspector 1ZY47DC1ZVR2FFLPMA72PGE4446I90YB  is now disconnected"
+[2025-09-07 17:34:57] Info: 尝试重新加载插件或者移除相关数据
+[2025-09-07 17:34:57] Info: SDPluginManager::removePluginCode QWebSocket(0x2835439e4c0)
+[2025-09-07 17:35:00] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:35:00] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:35:00] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:35:00] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:37:47] Info: quitApp - begin
+[2025-09-07 17:37:47] Info: quitApp - end
+[2025-09-07 17:37:47] Info: About to quit.
+[2025-09-07 17:37:47] Info: StreamDock::~StreamDock
+[2025-09-07 17:37:47] Info: 发送断开连接命令
+[2025-09-07 17:37:47] Info: Close device - begin
+[2025-09-07 17:37:47] Info: closeHidDevice(): handle = 0x283540ad9c0
+[2025-09-07 17:37:47] Info: Try to stop hid write thread.
+[2025-09-07 17:37:47] Info: Write data function - end
+[2025-09-07 17:37:47] Info: 关闭发送数据线程。
+[2025-09-07 17:37:47] Info: Try to stop hid read thread.
+[2025-09-07 17:37:50] Info: Read data function - end
+[2025-09-07 17:37:50] Info: 关闭接收数据线程。
+[2025-09-07 17:37:50] Info: hid_close(): handle = 0x0
+[2025-09-07 17:37:50] Info: hid_exit(): result = 0
+[2025-09-07 17:37:50] Info: Close device - end
+[2025-09-07 17:37:50] Info: Need to restart app: false
+[2025-09-07 17:37:50] Info: Close device - begin
+[2025-09-07 17:37:50] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 17:37:50] Info: Close device - end
+[2025-09-07 17:37:50] Info: Close device - begin
+[2025-09-07 17:37:50] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 17:37:50] Info: Close device - end
+[2025-09-07 17:37:50] Info: Close device - begin
+[2025-09-07 17:37:50] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 17:37:50] Info: Close device - end
+[2025-09-07 17:37:50] Info: Close device - begin
+[2025-09-07 17:37:50] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 17:37:50] Info: Close device - end

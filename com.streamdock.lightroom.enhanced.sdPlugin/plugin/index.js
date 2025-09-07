@@ -169,7 +169,7 @@ plugin.control = new Actions({
     // You can define defaults that PI may override later
     default: {
         // Example default: 'Exposure2012' if PI not configured
-        target: 'Exposure2012'
+        target: 'Exposure'
     },
     _willAppear({ context }) {
         // Optionally show an "ON" indicator on the key/dial
@@ -204,8 +204,9 @@ plugin.control = new Actions({
         const target = getTargetFromSettings(plugin.control, context);
         if (!target) { log.warn('dialRotate with no target configured'); return; }
         const ticks = extractTicks(payload);
+        log.info(`[dialRotate] ticks=${ticks} SENS=${SENS} direction=${ticks < 0 ? 'CCW' : 'CW'}`);
         if (!Number.isFinite(ticks) || ticks === 0) return;
-    const delta = ticks * SENS; // scale ticks to Lightroom delta
+        const delta = ticks * SENS; // scale ticks to Lightroom delta
         enqueue({ type: 'delta', target, value: delta });
     }
 });

@@ -1,0 +1,125 @@
+[2025-09-07 17:38:53] Info: "5.15.2"
+[2025-09-07 17:38:53] Info: "windows 10"
+[2025-09-07 17:38:53] Info: "10.0.26120"
+[2025-09-07 17:38:53] Info: "Bulgarian"
+[2025-09-07 17:38:53] Info: "3.10.191.0421"
+[2025-09-07 17:38:53] Info: Init app - begin
+[2025-09-07 17:38:53] Info: Load preload html - begin
+[2025-09-07 17:38:53] Info: Load preload html - end
+[2025-09-07 17:38:53] Info: MonitorApplicationsTool - start
+[2025-09-07 17:38:53] Info: MonitorApplicationsTool - end
+[2025-09-07 17:38:53] Info: SDWebsocketServer - end
+[2025-09-07 17:38:53] Info: SDPluginServer instance - end
+[2025-09-07 17:38:53] Info: SDProfileManager instance - end
+[2025-09-07 17:38:54] Info: initWidget - start
+[2025-09-07 17:38:54] Info: initWidget _ SDDebugger start 
+[2025-09-07 17:38:54] Info: initWidget _ SDUploadDialog start 
+[2025-09-07 17:38:54] Info: initWidget _ SDSetting start 
+[2025-09-07 17:38:54] Info: initWidget _ SDStore start 
+[2025-09-07 17:38:54] Info: Store websocket server listen successful with port: 56018
+[2025-09-07 17:38:54] Info: initWidget _ SDToolbarWidget start 
+[2025-09-07 17:38:55] Warning: QFSFileEngine::open: No file name specified
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:38:55] Info: Init app - end
+[2025-09-07 17:38:55] Info: SDNotificationWidget::updateLocation
+[2025-09-07 17:38:55] Info: "C:\\Program Files (x86)\\Stream Dock AJAZZ Global\\Stream Dock AJAZZ.exe"
+[2025-09-07 17:38:55] Info: Run a.exec().
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:38:55] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin 2R3M1E7B03BV4N003K54133FO21CR7V8 com.mirabox.streamdock.discord.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin Q592333XVLMHM5D197M4X6E89I92DY4K de.perdoctus.streamdeck.homeassistant.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin 2NJABZ7114A297LBS042XUY866E4D0B1 com.mirabox.streamdock.switchAudio.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin H454UE2U0AJ7BGCQ9WW32FHA30H7798U com.krabs.windowsgizmos.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin 226052095V58Q86G1NO6Z6X5Y12P21O6 com.streamdock.lightroom.enhanced.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: Updater::checkForUpdates
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin 0D9XLP8A0J0Z4NM2V83QY2247EJ2CJ47 com.barraider.wintools.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin 84W8QT402P317UM0SUT72615947JIIKD se.trevligaspel.midi.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin F423UQ48PZ1E95BR786SMW9TZZE17966 com.barraider.supermacro.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin C2H74RY28S8DX8735C2TQ5TLVXAECBV2 com.nicollasr.streamdeckvsc.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin 1OM21YNGYX2AB79Q8JJ12K361U2AULUX com.start-automating.windowsscriptdeck.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin OJB0M7L490OJFNM4Y30F4IW9Z2L0FJV2 com.hotspot.streamdock.memo.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin R62581D2W63534222X49S844J7SR8326 io.moeritz.streamdeck.toggl.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin MNLDUQQ3KVM7300S1SNT2HCHW3WEW0IK com.hotspot.streamdock.weather.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin GJZGQUKIZ3PTT54H4U4LZFB4M2P50F6Q com.mirabox.streamdock.time.sdPlugin is now connected"
+[2025-09-07 17:38:55] Info: SDPluginServer::onTextMessageReceived "Plugin 7I18YN3R06I8V236E42KL02S5P9F7410 com.mirabox.streamdock.calendar.sdPlugin is now connected"
+[2025-09-07 17:38:56] Info: SDPluginServer::onTextMessageReceived "Plugin MD2JQSA2EP74Y8U4G0PFHQ45IJ3UN6E5 com.start-automating.scriptdeck.sdPlugin is now connected"
+[2025-09-07 17:38:56] Info: onHttpRequestReturn: "/user/info" ""
+[2025-09-07 17:38:56] Info: Start download file from: "https://cdn1.key123.vip/marketplace/user/avatar/space/1755635343586/avatar.png"
+[2025-09-07 17:38:56] Info: Connect to devices...
+[2025-09-07 17:38:56] Info: Devices number: 18
+[2025-09-07 17:38:56] Info: Elapsed time: 46 ms
+[2025-09-07 17:38:56] Info: "tmpVid  : 768  tmpPid: 12290  tmpSerialNumber  0300D078274A   -----"
+[2025-09-07 17:38:56] Info: Open device - begin
+[2025-09-07 17:38:56] Info: openHidDevice(): handle = 0x0
+[2025-09-07 17:38:56] Info: "hid_get_manufacturer_string(handle, wstr, MAX_STR) return 0; Manufacturer String: HOTSPOTEKUSB;"
+[2025-09-07 17:38:56] Info: "hid_get_product_string(handle, wstr, MAX_STR) return 0; Product String: HOTSPOTEKUSB HID DEMO;"
+[2025-09-07 17:38:56] Info: "hid_get_serial_number_string(handle, wstr, MAX_STR) return 0; Serial Number String: (48) 0300D078274A;"
+[2025-09-07 17:38:56] Info: "hid_get_indexed_string(handle, wstr, MAX_STR) return 0; Indexed String: HOTSPOTEKUSB;"
+[2025-09-07 17:38:56] Info: Get firmware version : "V25.AKP03E.01.005"
+[2025-09-07 17:38:56] Info: Try to start hid read thread.
+[2025-09-07 17:38:56] Info: Hid read thread start.
+[2025-09-07 17:38:56] Info: Read data function - begin
+[2025-09-07 17:38:56] Info: Try to start hid write thread.
+[2025-09-07 17:38:56] Info: Hid write thread start.
+[2025-09-07 17:38:56] Info: Write data function - begin
+[2025-09-07 17:38:56] Info: Open device - end
+[2025-09-07 17:38:56] Info: 成功打开USB设备。
+[2025-09-07 17:38:56] Info: 启动接收数据线程。
+[2025-09-07 17:38:56] Info: 启动发送数据线程。
+[2025-09-07 17:38:56] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:38:56] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:38:59] Info: onHttpRequestReturn: "/client/order/product" "getAll"
+[2025-09-07 17:38:59] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:38:59] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:38:59] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:38:59] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:55:55] Info: SDPluginServer::onTextMessageReceived "Property inspector 71711NFK01J3180UAF5WULK238EN6W61  is now connected"
+[2025-09-07 17:56:18] Info: SDPluginServer::onSocketDisconnected "Property inspector 71711NFK01J3180UAF5WULK238EN6W61  is now disconnected"
+[2025-09-07 17:56:18] Info: 尝试重新加载插件或者移除相关数据
+[2025-09-07 17:56:18] Info: SDPluginManager::removePluginCode QWebSocket(0x19f9af95b90)
+[2025-09-07 17:56:18] Info: SDPluginServer::onTextMessageReceived "Property inspector G9DV9861AJBDM7BNL56430UNK23SXQNT  is now connected"
+[2025-09-07 17:57:25] Info: SDPluginServer::onSocketDisconnected "Property inspector G9DV9861AJBDM7BNL56430UNK23SXQNT  is now disconnected"
+[2025-09-07 17:57:25] Info: 尝试重新加载插件或者移除相关数据
+[2025-09-07 17:57:25] Info: SDPluginManager::removePluginCode QWebSocket(0x19f9af978d0)
+[2025-09-07 17:57:26] Info: SDPluginServer::onTextMessageReceived "Property inspector 2OV4WHUKR4V323J07RKRD731844G53DE  is now connected"
+[2025-09-07 17:57:27] Info: SDPluginServer::onSocketDisconnected "Property inspector 2OV4WHUKR4V323J07RKRD731844G53DE  is now disconnected"
+[2025-09-07 17:57:27] Info: 尝试重新加载插件或者移除相关数据
+[2025-09-07 17:57:27] Info: SDPluginManager::removePluginCode QWebSocket(0x19f9ade1210)
+[2025-09-07 17:57:28] Info: SDPluginServer::onTextMessageReceived "Property inspector MSPWD0U419N42LT92U826OHBS18Y7JL0  is now connected"
+[2025-09-07 17:57:29] Critical: SDPluginServer::onSocketDisconnected QWebSocket(0x19f9ade1fb0) 1001 ""
+[2025-09-07 17:57:29] Info: SDPluginServer::onSocketDisconnected "Property inspector MSPWD0U419N42LT92U826OHBS18Y7JL0  is now disconnected"
+[2025-09-07 17:57:29] Info: 尝试重新加载插件或者移除相关数据
+[2025-09-07 17:57:29] Info: SDPluginManager::removePluginCode QWebSocket(0x19f9ade1fb0)
+[2025-09-07 17:57:29] Info: SDPluginServer::onTextMessageReceived "Property inspector 79P5LF1G693EKV4824U62T12YX9QQA2Z  is now connected"
+[2025-09-07 17:57:30] Info: SDPluginServer::onSocketDisconnected "Property inspector 79P5LF1G693EKV4824U62T12YX9QQA2Z  is now disconnected"
+[2025-09-07 17:57:30] Info: 尝试重新加载插件或者移除相关数据
+[2025-09-07 17:57:30] Info: SDPluginManager::removePluginCode QWebSocket(0x19f9af97710)
+[2025-09-07 17:57:32] Info: SDPluginServer::onTextMessageReceived "Property inspector O8B25OG242PP5638C6V2MA4SLPGKVBP9  is now connected"
+[2025-09-07 17:57:33] Info: SDPluginServer::onSocketDisconnected "Property inspector O8B25OG242PP5638C6V2MA4SLPGKVBP9  is now disconnected"
+[2025-09-07 17:57:33] Info: 尝试重新加载插件或者移除相关数据
+[2025-09-07 17:57:33] Info: SDPluginManager::removePluginCode QWebSocket(0x19f9af97c50)
+[2025-09-07 17:57:36] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:57:36] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:57:36] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:57:36] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:57:40] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:57:40] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:57:40] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:57:40] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:57:40] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:57:41] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:57:41] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:57:41] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 17:57:42] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 17:57:42] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 17:57:42] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 17:57:42] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut

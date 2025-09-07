@@ -39,6 +39,22 @@ local function sectionsForTopOfDialog(f, props)
     _G.__AJAZZ_CORE = Core
     if props.isRunning == nil then props.isRunning = Core.running == true end
 
+    -- Add connection status property
+    if props.connectionStatus == nil then props.connectionStatus = 'Unknown' end
+
+    -- Health check for HTTP bridge
+    LrTasks.startAsyncTask(function()
+        local http = import 'LrHttp'
+        local ok, resp = pcall(function()
+            return http.get('http://127.0.0.1:58762/health')
+        end)
+        if ok and resp and resp:find('OK') then
+            props.connectionStatus = 'Connected'
+        else
+            props.connectionStatus = 'Disconnected'
+        end
+    end)
+
     return {
         {
             title = 'AJAZZ StreamDock',
@@ -82,6 +98,12 @@ local function sectionsForTopOfDialog(f, props)
                         title = LrView.bind {
                             key = 'isRunning', bind_to_object = props,
                             transform = function(v) return v and 'Status: Running' or 'Status: Stopped' end
+                        }
+                    },
+                    f:static_text {
+                        title = LrView.bind {
+                            key = 'connectionStatus', bind_to_object = props,
+                            transform = function(v) return 'Bridge: ' .. v end
                         }
                     }
                 },

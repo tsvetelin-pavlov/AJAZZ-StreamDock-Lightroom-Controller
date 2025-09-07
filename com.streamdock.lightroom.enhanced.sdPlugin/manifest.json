@@ -2,25 +2,6 @@
     "Actions": [
         {
             "Icon": "static/App-logo.png",
-            "Name": "Lightroom Control (Generic)",
-            "DisableAutomaticStates": true,
-            "States": [
-                {
-                    "Image": "static/App-logo.png",
-                    "TitleAlignment": "center",
-                    "FontSize": "8"
-                }
-            ],
-            "Settings": {},
-            "Controllers": ["Keypad", "Knob"],            
-            "UserTitleEnabled": true,
-            "SupportedInMultiActions": true,
-            "Tooltip": "Generic Lightroom control (configure target/action)",
-            "UUID": "com.streamdock.lightroom.enhanced",
-            "PropertyInspectorPath": "propertyInspector/demo/index.html"
-        },
-        {
-            "Icon": "static/App-logo.png",
             "Name": "Exposure (Knob)",
             "DisableAutomaticStates": true,
             "States": [
