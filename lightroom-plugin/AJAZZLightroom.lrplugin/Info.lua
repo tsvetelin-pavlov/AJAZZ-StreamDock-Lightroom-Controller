@@ -4,13 +4,13 @@ return {
     LrSdkMinimumVersion = 6.0,
     LrToolkitIdentifier = 'com.ajazz.streamdock.lightroom',
     LrPluginName = 'AJAZZ StreamDock Controller',
-    LrInitPlugin = 'modules/Server.lua',
+    LrInitPlugin = 'modules/Start.lua',
     LrShutdownPlugin = 'modules/Stop.lua',
 
     LrLibraryMenuItems = {
         {
             title = 'Start StreamDock Server',
-            file = 'modules/Server.lua',
+            file = 'modules/Start.lua',
         },
         {
             title = 'Stop StreamDock Server',

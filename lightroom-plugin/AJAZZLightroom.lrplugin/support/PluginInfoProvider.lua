@@ -8,7 +8,7 @@ local LrBinding = import 'LrBinding'
 local function load_module(path)
     local src = LrFileUtils.readFile(path)
     if not src then return nil end
-    if string.byte(src,1) == 239 and string.byte(src,2) == 187 and string.byte(src,3) == 191 then
+    if string.byte(src, 1) == 239 and string.byte(src, 2) == 187 and string.byte(src, 3) == 191 then
         src = string.sub(src, 4)
     end
     -- Prefer modern Lua 5.4 load(); fall back to loadstring() if the LR runtime provides it.
@@ -16,11 +16,11 @@ local function load_module(path)
     local hasLoadString = type(rawget(_G, 'loadstring')) == 'function'
     if not hasLoadString and type(load) == 'function' then
         -- Lua 5.2+: load(string, chunkname, mode, env)
-        chunk, err = load(src, '@'..path, 't', _G)
+        chunk, err = load(src, '@' .. path, 't', _G)
     else
         -- Lightroom's Lua 5.1: use loadstring
         ---@diagnostic disable-next-line: deprecated
-        chunk, err = loadstring(src, '@'..path)
+        chunk, err = loadstring(src, '@' .. path)
     end
     if not chunk then return nil end
     local ok, mod = pcall(chunk)

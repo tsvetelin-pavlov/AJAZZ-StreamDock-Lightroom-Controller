@@ -9,8 +9,8 @@ local LrFileUtils = import 'LrFileUtils'
 
 local function load_module(path)
     local src = LrFileUtils.readFile(path)
-    if not src then error('Failed to read '..path) end
-    if string.byte(src,1) == 239 and string.byte(src,2) == 187 and string.byte(src,3) == 191 then
+    if not src then error('Failed to read ' .. path) end
+    if string.byte(src, 1) == 239 and string.byte(src, 2) == 187 and string.byte(src, 3) == 191 then
         src = string.sub(src, 4)
     end
     -- Prefer modern Lua 5.4 load(); fall back to loadstring() if the LR runtime provides it.
@@ -18,15 +18,15 @@ local function load_module(path)
     local hasLoadString = type(rawget(_G, 'loadstring')) == 'function'
     if not hasLoadString and type(load) == 'function' then
         -- Lua 5.2+: load(string, chunkname, mode, env)
-        chunk, err = load(src, '@'..path, 't', _G)
+        chunk, err = load(src, '@' .. path, 't', _G)
     else
         -- Lightroom's Lua 5.1: use loadstring
         ---@diagnostic disable-next-line: deprecated
-        chunk, err = loadstring(src, '@'..path)
+        chunk, err = loadstring(src, '@' .. path)
     end
-    if not chunk then error('load error: '..tostring(err)) end
+    if not chunk then error('load error: ' .. tostring(err)) end
     local ok, mod = pcall(chunk)
-    if not ok then error('exec error: '..tostring(mod)) end
+    if not ok then error('exec error: ' .. tostring(mod)) end
     return mod
 end
 
@@ -60,19 +60,32 @@ local function applyDelta(target, delta)
             return
         end
     end
-    if t == 'Exposure2012' then dc.increment("Exposure", delta)
-    elseif t == 'Contrast2012' then dc.increment("Contrast", delta)
-    elseif t == 'Highlights2012' then dc.increment("Highlights", delta)
-    elseif t == 'Shadows2012' then dc.increment("Shadows", delta)
-    elseif t == 'Whites2012' then dc.increment("Whites", delta)
-    elseif t == 'Blacks2012' then dc.increment("Blacks", delta)
-    elseif t == 'Clarity2012' or t == 'Clarity' then dc.increment("Clarity", delta)
-    elseif t == 'Dehaze' then dc.increment("Dehaze", delta)
-    elseif t == 'Vibrance' then dc.increment("Vibrance", delta)
-    elseif t == 'Saturation' then dc.increment("Saturation", delta)
-    elseif t == 'Texture' then dc.increment("Texture", delta)
-    elseif t == 'Temperature' or t == 'Temp' then dc.increment("Temperature", delta * 100)
-    elseif t == 'Tint' then dc.increment("Tint", delta * 100)
+    if t == 'Exposure2012' then
+        dc.increment("Exposure", delta)
+    elseif t == 'Contrast2012' then
+        dc.increment("Contrast", delta)
+    elseif t == 'Highlights2012' then
+        dc.increment("Highlights", delta)
+    elseif t == 'Shadows2012' then
+        dc.increment("Shadows", delta)
+    elseif t == 'Whites2012' then
+        dc.increment("Whites", delta)
+    elseif t == 'Blacks2012' then
+        dc.increment("Blacks", delta)
+    elseif t == 'Clarity2012' or t == 'Clarity' then
+        dc.increment("Clarity", delta)
+    elseif t == 'Dehaze' then
+        dc.increment("Dehaze", delta)
+    elseif t == 'Vibrance' then
+        dc.increment("Vibrance", delta)
+    elseif t == 'Saturation' then
+        dc.increment("Saturation", delta)
+    elseif t == 'Texture' then
+        dc.increment("Texture", delta)
+    elseif t == 'Temperature' or t == 'Temp' then
+        dc.increment("Temperature", delta * 100)
+    elseif t == 'Tint' then
+        dc.increment("Tint", delta * 100)
     elseif t:match('^HSL') then
         local _, _, group, color = t:find('HSL%.(Hue|Sat|Lum)%.([A-Za-z]+)')
         if group and color then
@@ -102,19 +115,32 @@ local function setAbsolute(target, value01)
             return
         end
     end
-    if t == 'Exposure2012' then dc.setValue("Exposure", value01)
-    elseif t == 'Contrast2012' then dc.setValue("Contrast", value01)
-    elseif t == 'Highlights2012' then dc.setValue("Highlights", value01)
-    elseif t == 'Shadows2012' then dc.setValue("Shadows", value01)
-    elseif t == 'Whites2012' then dc.setValue("Whites", value01)
-    elseif t == 'Blacks2012' then dc.setValue("Blacks", value01)
-    elseif t == 'Clarity2012' or t == 'Clarity' then dc.setValue("Clarity", value01)
-    elseif t == 'Dehaze' then dc.setValue("Dehaze", value01)
-    elseif t == 'Vibrance' then dc.setValue("Vibrance", value01)
-    elseif t == 'Saturation' then dc.setValue("Saturation", value01)
-    elseif t == 'Texture' then dc.setValue("Texture", value01)
-    elseif t == 'Temperature' or t == 'Temp' then dc.setValue("Temperature", value01)
-    elseif t == 'Tint' then dc.setValue("Tint", value01)
+    if t == 'Exposure2012' then
+        dc.setValue("Exposure", value01)
+    elseif t == 'Contrast2012' then
+        dc.setValue("Contrast", value01)
+    elseif t == 'Highlights2012' then
+        dc.setValue("Highlights", value01)
+    elseif t == 'Shadows2012' then
+        dc.setValue("Shadows", value01)
+    elseif t == 'Whites2012' then
+        dc.setValue("Whites", value01)
+    elseif t == 'Blacks2012' then
+        dc.setValue("Blacks", value01)
+    elseif t == 'Clarity2012' or t == 'Clarity' then
+        dc.setValue("Clarity", value01)
+    elseif t == 'Dehaze' then
+        dc.setValue("Dehaze", value01)
+    elseif t == 'Vibrance' then
+        dc.setValue("Vibrance", value01)
+    elseif t == 'Saturation' then
+        dc.setValue("Saturation", value01)
+    elseif t == 'Texture' then
+        dc.setValue("Texture", value01)
+    elseif t == 'Temperature' or t == 'Temp' then
+        dc.setValue("Temperature", value01)
+    elseif t == 'Tint' then
+        dc.setValue("Tint", value01)
     end
     -- Fallback: attempt direct set
     pcall(function() dc.setValue(t, value01) end)
@@ -122,10 +148,14 @@ end
 
 local function invokeAction(action)
     local dc = LrDevelopController
-    if action == 'ToggleBeforeAfter' then dc.performCommand('toggleBeforeAfter')
-    elseif action == 'Reset' then dc.performCommand('resetSettings')
-    elseif action == 'CopySettings' then dc.performCommand('copySettings')
-    elseif action == 'PasteSettings' then dc.performCommand('pasteSettings')
+    if action == 'ToggleBeforeAfter' then
+        dc.performCommand('toggleBeforeAfter')
+    elseif action == 'Reset' then
+        dc.performCommand('resetSettings')
+    elseif action == 'CopySettings' then
+        dc.performCommand('copySettings')
+    elseif action == 'PasteSettings' then
+        dc.performCommand('pasteSettings')
     else
         pcall(function() dc.performCommand(action) end)
     end
