@@ -1,0 +1,203 @@
+{
+    "Actions": [
+        {
+            "Icon": "static/App-logo.png",
+            "Name": "Lightroom Control (Generic)",
+            "DisableAutomaticStates": true,
+            "States": [
+                {
+                    "Image": "static/App-logo.png",
+                    "TitleAlignment": "center",
+                    "FontSize": "8"
+                }
+            ],
+            "Settings": {},
+            "Controllers": ["Keypad", "Knob"],            
+            "UserTitleEnabled": true,
+            "SupportedInMultiActions": true,
+            "Tooltip": "Generic Lightroom control (configure target/action)",
+            "UUID": "com.streamdock.lightroom.enhanced",
+            "PropertyInspectorPath": "propertyInspector/demo/index.html"
+        },
+        {
+            "Icon": "static/App-logo.png",
+            "Name": "Exposure (Knob)",
+            "DisableAutomaticStates": true,
+            "States": [
+                {
+                    "Image": "static/App-logo.png",
+                    "TitleAlignment": "center",
+                    "FontSize": "8"
+                }
+            ],
+            "Settings": {},
+            "Controllers": ["Knob"],            
+            "UserTitleEnabled": true,
+            "SupportedInMultiActions": true,
+            "Tooltip": "Adjust Exposure by rotating the knob",
+            "UUID": "com.streamdock.lightroom.enhanced.exposure",
+            "PropertyInspectorPath": "propertyInspector/demo/index.html"
+        },
+        {
+            "Icon": "static/App-logo.png",
+            "Name": "Contrast (Knob)",
+            "DisableAutomaticStates": true,
+            "States": [
+                {
+                    "Image": "static/App-logo.png",
+                    "TitleAlignment": "center",
+                    "FontSize": "8"
+                }
+            ],
+            "Settings": {},
+            "Controllers": ["Knob"],            
+            "UserTitleEnabled": true,
+            "SupportedInMultiActions": true,
+            "Tooltip": "Adjust Contrast by rotating the knob",
+            "UUID": "com.streamdock.lightroom.enhanced.contrast",
+            "PropertyInspectorPath": "propertyInspector/demo/index.html"
+        },
+        {
+            "Icon": "static/App-logo.png",
+            "Name": "Highlights (Knob)",
+            "DisableAutomaticStates": true,
+            "States": [
+                {
+                    "Image": "static/App-logo.png",
+                    "TitleAlignment": "center",
+                    "FontSize": "8"
+                }
+            ],
+            "Settings": {},
+            "Controllers": ["Knob"],            
+            "UserTitleEnabled": true,
+            "SupportedInMultiActions": true,
+            "Tooltip": "Adjust Highlights by rotating the knob",
+            "UUID": "com.streamdock.lightroom.enhanced.highlights",
+            "PropertyInspectorPath": "propertyInspector/demo/index.html"
+        },
+        {
+            "Icon": "static/App-logo.png",
+            "Name": "Shadows (Knob)",
+            "DisableAutomaticStates": true,
+            "States": [
+                {
+                    "Image": "static/App-logo.png",
+                    "TitleAlignment": "center",
+                    "FontSize": "8"
+                }
+            ],
+            "Settings": {},
+            "Controllers": ["Knob"],            
+            "UserTitleEnabled": true,
+            "SupportedInMultiActions": true,
+            "Tooltip": "Adjust Shadows by rotating the knob",
+            "UUID": "com.streamdock.lightroom.enhanced.shadows",
+            "PropertyInspectorPath": "propertyInspector/demo/index.html"
+        },
+        {
+            "Icon": "static/App-logo.png",
+            "Name": "Before/After (Button)",
+            "DisableAutomaticStates": true,
+            "States": [
+                {
+                    "Image": "static/App-logo.png",
+                    "TitleAlignment": "center",
+                    "FontSize": "8"
+                }
+            ],
+            "Settings": {},
+            "Controllers": ["Keypad"],            
+            "UserTitleEnabled": true,
+            "SupportedInMultiActions": true,
+            "Tooltip": "Toggle Before/After",
+            "UUID": "com.streamdock.lightroom.enhanced.togglebeforeafter",
+            "PropertyInspectorPath": "propertyInspector/demo/index.html"
+        },
+        {
+            "Icon": "static/App-logo.png",
+            "Name": "Reset (Button)",
+            "DisableAutomaticStates": true,
+            "States": [
+                {
+                    "Image": "static/App-logo.png",
+                    "TitleAlignment": "center",
+                    "FontSize": "8"
+                }
+            ],
+            "Settings": {},
+            "Controllers": ["Keypad"],            
+            "UserTitleEnabled": true,
+            "SupportedInMultiActions": true,
+            "Tooltip": "Reset current photo settings",
+            "UUID": "com.streamdock.lightroom.enhanced.reset",
+            "PropertyInspectorPath": "propertyInspector/demo/index.html"
+        },
+        {
+            "Icon": "static/App-logo.png",
+            "Name": "Copy Settings (Button)",
+            "DisableAutomaticStates": true,
+            "States": [
+                {
+                    "Image": "static/App-logo.png",
+                    "TitleAlignment": "center",
+                    "FontSize": "8"
+                }
+            ],
+            "Settings": {},
+            "Controllers": ["Keypad"],            
+            "UserTitleEnabled": true,
+            "SupportedInMultiActions": true,
+            "Tooltip": "Copy current develop settings",
+            "UUID": "com.streamdock.lightroom.enhanced.copysettings",
+            "PropertyInspectorPath": "propertyInspector/demo/index.html"
+        },
+        {
+            "Icon": "static/App-logo.png",
+            "Name": "Paste Settings (Button)",
+            "DisableAutomaticStates": true,
+            "States": [
+                {
+                    "Image": "static/App-logo.png",
+                    "TitleAlignment": "center",
+                    "FontSize": "8"
+                }
+            ],
+            "Settings": {},
+            "Controllers": ["Keypad"],            
+            "UserTitleEnabled": true,
+            "SupportedInMultiActions": true,
+            "Tooltip": "Paste develop settings",
+            "UUID": "com.streamdock.lightroom.enhanced.pastesettings",
+            "PropertyInspectorPath": "propertyInspector/demo/index.html"
+        }
+    ],
+    "SDKVersion": 1,
+    "Author": "Tsvetelin Pavlov",
+    "UUID": "com.streamdock.lightroom.enhanced",
+    "Name": "Lightroom Classic Enhanced Controller",
+    "Icon": "static/App-logo.png",
+    "CodePathWin": "plugin/index.js",
+    "CodePathMac": "plugin/index.js",
+    "Description": "Control Lightroom Classic Develop sliders and actions from StreamDock knobs and buttons.",
+    "Category": "Lightroom",
+    "CategoryIcon": "static/App-logo.png",
+    "Version": "0.1.0",
+    "URL": "",
+    "OS": [
+        {
+            "Platform": "mac",
+            "MinimumVersion": "10.11"
+        },
+        {
+            "Platform": "windows",
+            "MinimumVersion": "7"
+        }
+    ],
+    "Software": {
+        "MinimumVersion": "3.10.188.226"
+    },
+    "Nodejs": {
+        "Version": "20"
+    }
+}

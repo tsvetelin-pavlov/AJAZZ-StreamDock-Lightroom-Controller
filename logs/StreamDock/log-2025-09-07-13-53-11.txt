@@ -1,0 +1,162 @@
+[2025-09-07 13:53:11] Info: "5.15.2"
+[2025-09-07 13:53:11] Info: "windows 10"
+[2025-09-07 13:53:11] Info: "10.0.26120"
+[2025-09-07 13:53:11] Info: "Bulgarian"
+[2025-09-07 13:53:11] Info: "3.10.191.0421"
+[2025-09-07 13:53:11] Info: Init app - begin
+[2025-09-07 13:53:11] Info: Load preload html - begin
+[2025-09-07 13:53:11] Info: Load preload html - end
+[2025-09-07 13:53:11] Info: MonitorApplicationsTool - start
+[2025-09-07 13:53:11] Info: MonitorApplicationsTool - end
+[2025-09-07 13:53:11] Info: SDWebsocketServer - end
+[2025-09-07 13:53:11] Info: SDPluginServer instance - end
+[2025-09-07 13:53:11] Info: SDProfileManager instance - end
+[2025-09-07 13:53:12] Info: initWidget - start
+[2025-09-07 13:53:12] Info: initWidget _ SDDebugger start 
+[2025-09-07 13:53:12] Info: initWidget _ SDUploadDialog start 
+[2025-09-07 13:53:12] Info: initWidget _ SDSetting start 
+[2025-09-07 13:53:12] Info: initWidget _ SDStore start 
+[2025-09-07 13:53:12] Info: Store websocket server listen successful with port: 56018
+[2025-09-07 13:53:12] Info: initWidget _ SDToolbarWidget start 
+[2025-09-07 13:53:13] Warning: QFSFileEngine::open: No file name specified
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 13:53:13] Info: Init app - end
+[2025-09-07 13:53:13] Info: SDNotificationWidget::updateLocation
+[2025-09-07 13:53:13] Info: "C:\\Program Files (x86)\\Stream Dock AJAZZ Global\\Stream Dock AJAZZ.exe"
+[2025-09-07 13:53:13] Info: Run a.exec().
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 13:53:13] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 13:53:13] Info: Updater::checkForUpdates
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin 3YWF5BOC3FZHU7D0S71CU239NX17RMM1 com.mirabox.streamdock.switchAudio.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin 23IHH20840701M2YD014F45WZ0P99T3R com.krabs.windowsgizmos.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin X36320W4P287126KVWWEK6Y0LWL05018 de.perdoctus.streamdeck.homeassistant.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin A9N042AWL9T9JY1WV7GSXTR2XVH157YB com.mirabox.streamdock.discord.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin 1Z4V792ZX3NK0HW1L90G0AP2EM3033YX com.barraider.wintools.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin XNJ2A6WPU72407I4CCYBCN5M00V1R714 se.trevligaspel.midi.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin 34058425Z89Z61109O42K82RR1N0Q223 com.nicollasr.streamdeckvsc.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin 3Q04O16M0N312Q03XK5VM6B00O460GT4 com.barraider.supermacro.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin AXYCGMP07W3002230T6T3D60Y2FSE1V2 com.start-automating.windowsscriptdeck.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin 2615TF008X311990WN18Q259CM41TMIT com.hotspot.streamdock.memo.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin 0M4GPM15A98HI34873L5M2XMW3960Z19 io.moeritz.streamdeck.toggl.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin 9T11N240GZ1V2589LT8D2GIJCO71RP4P com.hotspot.streamdock.weather.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin 5M9Q20AC113I7DTZ1ZVR7906HX8UR3J3 com.mirabox.streamdock.time.sdPlugin is now connected"
+[2025-09-07 13:53:13] Info: SDPluginServer::onTextMessageReceived "Plugin P543ZCINGU97CH1M4PQXC2VSQ49YI1WV com.mirabox.streamdock.calendar.sdPlugin is now connected"
+[2025-09-07 13:53:14] Info: SDPluginServer::onTextMessageReceived "Plugin 194AQ591W2KB54QRI7RB516Y4HE221X3 com.start-automating.scriptdeck.sdPlugin is now connected"
+[2025-09-07 13:53:14] Info: onHttpRequestReturn: "/user/info" ""
+[2025-09-07 13:53:14] Info: Connect to devices...
+[2025-09-07 13:53:14] Info: Devices number: 18
+[2025-09-07 13:53:14] Info: Elapsed time: 46 ms
+[2025-09-07 13:53:14] Info: "tmpVid  : 768  tmpPid: 12290  tmpSerialNumber  0300D078274A   -----"
+[2025-09-07 13:53:14] Info: Open device - begin
+[2025-09-07 13:53:14] Info: openHidDevice(): handle = 0x0
+[2025-09-07 13:53:14] Info: "hid_get_manufacturer_string(handle, wstr, MAX_STR) return 0; Manufacturer String: HOTSPOTEKUSB;"
+[2025-09-07 13:53:14] Info: "hid_get_product_string(handle, wstr, MAX_STR) return 0; Product String: HOTSPOTEKUSB HID DEMO;"
+[2025-09-07 13:53:14] Info: "hid_get_serial_number_string(handle, wstr, MAX_STR) return 0; Serial Number String: (48) 0300D078274A;"
+[2025-09-07 13:53:14] Info: "hid_get_indexed_string(handle, wstr, MAX_STR) return 0; Indexed String: HOTSPOTEKUSB;"
+[2025-09-07 13:53:14] Info: Get firmware version : "V25.AKP03E.01.005"
+[2025-09-07 13:53:14] Info: Try to start hid read thread.
+[2025-09-07 13:53:14] Info: Hid read thread start.
+[2025-09-07 13:53:14] Info: Try to start hid write thread.
+[2025-09-07 13:53:14] Info: Read data function - begin
+[2025-09-07 13:53:14] Info: Hid write thread start.
+[2025-09-07 13:53:14] Info: Write data function - begin
+[2025-09-07 13:53:14] Info: Open device - end
+[2025-09-07 13:53:14] Info: 成功打开USB设备。
+[2025-09-07 13:53:14] Info: 启动接收数据线程。
+[2025-09-07 13:53:14] Info: Start download file from: "https://cdn1.key123.vip/marketplace/user/avatar/space/1755635343586/avatar.png"
+[2025-09-07 13:53:14] Info: 启动发送数据线程。
+[2025-09-07 13:53:14] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 13:53:14] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 13:53:16] Info: onHttpRequestReturn: "/client/order/product" "getAll"
+[2025-09-07 13:53:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 0
+[2025-09-07 13:53:25] Info: void __cdecl SDDeviceDisplayWidget::onPageChanged(const class QString &)
+[2025-09-07 13:53:25] Info: void __cdecl SDDeviceDisplayWidget::updateActionData(const class ProfileData &,bool) 2
+[2025-09-07 13:53:25] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void)
+[2025-09-07 13:53:25] Info: void __cdecl SDDeviceDisplayWidget::refreshDisplay(void) beginOut
+[2025-09-07 13:54:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 1
+[2025-09-07 13:54:27] Warning: QPixmap::scaled: Pixmap is a null pixmap
+[2025-09-07 13:55:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 2
+[2025-09-07 13:56:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 3
+[2025-09-07 13:57:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 4
+[2025-09-07 13:58:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 5
+[2025-09-07 13:59:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 6
+[2025-09-07 14:00:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 7
+[2025-09-07 14:01:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 8
+[2025-09-07 14:02:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 9
+[2025-09-07 14:03:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 10
+[2025-09-07 14:04:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 11
+[2025-09-07 14:05:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 12
+[2025-09-07 14:06:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 13
+[2025-09-07 14:07:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 14
+[2025-09-07 14:08:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 15
+[2025-09-07 14:09:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 16
+[2025-09-07 14:10:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 17
+[2025-09-07 14:11:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 18
+[2025-09-07 14:12:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 19
+[2025-09-07 14:13:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 20
+[2025-09-07 14:14:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 21
+[2025-09-07 14:15:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 22
+[2025-09-07 14:16:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 23
+[2025-09-07 14:17:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 24
+[2025-09-07 14:18:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 25
+[2025-09-07 14:19:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 26
+[2025-09-07 14:20:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 27
+[2025-09-07 14:21:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 28
+[2025-09-07 14:22:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 29
+[2025-09-07 14:23:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 30
+[2025-09-07 14:24:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 31
+[2025-09-07 14:25:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 32
+[2025-09-07 14:26:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 33
+[2025-09-07 14:27:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 34
+[2025-09-07 14:28:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 35
+[2025-09-07 14:29:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 36
+[2025-09-07 14:30:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 37
+[2025-09-07 14:31:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 38
+[2025-09-07 14:32:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 39
+[2025-09-07 14:33:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 40
+[2025-09-07 14:34:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 41
+[2025-09-07 14:35:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 42
+[2025-09-07 14:36:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 43
+[2025-09-07 14:37:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 44
+[2025-09-07 14:38:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 45
+[2025-09-07 14:39:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 46
+[2025-09-07 14:40:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 47
+[2025-09-07 14:41:23] Info: SDPluginManager::restartPlugin "C:/Users/tsvetelin/AppData/Roaming/HotSpot/StreamDock/plugins/com.streamdock.lightroom.enhanced.sdPlugin" 48
+[2025-09-07 14:41:46] Info: quitApp - begin
+[2025-09-07 14:41:46] Info: quitApp - end
+[2025-09-07 14:41:46] Info: About to quit.
+[2025-09-07 14:41:46] Info: StreamDock::~StreamDock
+[2025-09-07 14:41:46] Info: 发送断开连接命令
+[2025-09-07 14:41:46] Info: Close device - begin
+[2025-09-07 14:41:46] Info: closeHidDevice(): handle = 0x25da81bddd0
+[2025-09-07 14:41:46] Info: Try to stop hid write thread.
+[2025-09-07 14:41:46] Info: Write data function - end
+[2025-09-07 14:41:46] Info: 关闭发送数据线程。
+[2025-09-07 14:41:46] Info: Try to stop hid read thread.
+[2025-09-07 14:41:46] Info: Read data function - end
+[2025-09-07 14:41:46] Info: 关闭接收数据线程。
+[2025-09-07 14:41:46] Info: hid_close(): handle = 0x0
+[2025-09-07 14:41:46] Info: hid_exit(): result = 0
+[2025-09-07 14:41:46] Info: Close device - end
+[2025-09-07 14:41:46] Info: Need to restart app: false
+[2025-09-07 14:41:46] Info: Close device - begin
+[2025-09-07 14:41:46] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 14:41:46] Info: Close device - end
+[2025-09-07 14:41:46] Info: Close device - begin
+[2025-09-07 14:41:46] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 14:41:46] Info: Close device - end
+[2025-09-07 14:41:46] Info: Close device - begin
+[2025-09-07 14:41:46] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 14:41:46] Info: Close device - end
+[2025-09-07 14:41:46] Info: Close device - begin
+[2025-09-07 14:41:46] Info: closeHidDevice(): handle = 0x0
+[2025-09-07 14:41:46] Info: Close device - end
